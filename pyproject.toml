@@ -1,0 +1,9 @@
+[project]
+name = "helpbot"
+version = "0.1.0"
+description = "Lightweight Python chatbot with CLI, FastAPI API, and extensible skills."
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
